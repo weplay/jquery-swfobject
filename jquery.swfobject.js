@@ -141,8 +141,22 @@
 								width: obj.width || 320
 							},
 							params: {
-								wmode: obj.wmode || 'opaque',
-								flashvars: obj.flashvars
+								wmode:      obj.wmode || 'opaque',
+								flashvars:  obj.flashvars,
+                play:       obj.play,
+                loop:       obj.loop,
+                menu:       obj.menu,
+                quality:    obj.quality,
+                scale:      obj.scale,
+                salign:     obj.salign,
+                bgcolor:    obj.bgcolor,
+                base:       obj.base,
+                swliveconnect:      obj.swliveconnect,
+                devicefont:         obj.devicefont,
+                allowscriptaccess:  obj.allowscriptaccess,
+                seamlesstabbing:    obj.seamlesstabbing,
+                allowfullscreen:    obj.allowfullscreen,
+                allownetworking:    obj.allownetworking
 							}
 						},
 						obj

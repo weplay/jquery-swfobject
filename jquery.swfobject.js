@@ -38,7 +38,6 @@
 		bEach,
 		aArray = [],
 		bArray;
-    debugger;
     
 		if (typeof obj == 'object') {
 			for (aEach in obj) {
